@@ -16,7 +16,7 @@ const CartItem = ({ onContinueShopping }) => {
     total += quanity * cost; // Add item total
    })
    return total;
-   } 
+   }; 
   
 
   const handleContinueShopping = (e) => {
